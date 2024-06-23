@@ -10,10 +10,6 @@ Este proyecto consiste en el desarrollo de una aplicación de Windows Forms (win
 - [Evaluación](#evaluación)
 - [Nota](#nota)
 - [Desarrollo del Proyecto](#desarrollo-del-proyecto)
-  - [Paso 1: Sincronizar el Modelo de Datos](#paso-1-sincronizar-el-modelo-de-datos)
-  - [Paso 2: Generar el Modelo de Datos](#paso-2-generar-el-modelo-de-datos)
-  - [Paso 3: Crear el Proyecto ASP.NET Core 8](#paso-3-crear-el-proyecto-aspnet-core-8)
-  - [Paso 4: Generar la Interfaz Gráfica](#paso-4-generar-la-interfaz-gráfica)
 - [Creación de la Base de Datos](#creación-de-la-base-de-datos)
 
 ## Objetivos de la Unidad
