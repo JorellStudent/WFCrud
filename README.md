@@ -2,6 +2,20 @@
 
 Este proyecto consiste en el desarrollo de una aplicación de Windows Forms (winforms) utilizando ASP.NET Core 8 y Entity Framework Core. La aplicación se conectará a una base de datos para gestionar una tabla de "Productos".
 
+## Contenido
+
+- [Objetivos de la Unidad](#objetivos-de-la-unidad)
+- [Instrucciones Generales](#instrucciones-generales)
+- [Requisitos del Programa](#requisitos-del-programa)
+- [Evaluación](#evaluación)
+- [Nota](#nota)
+- [Desarrollo del Proyecto](#desarrollo-del-proyecto)
+  - [Paso 1: Sincronizar el Modelo de Datos](#paso-1-sincronizar-el-modelo-de-datos)
+  - [Paso 2: Generar el Modelo de Datos](#paso-2-generar-el-modelo-de-datos)
+  - [Paso 3: Crear el Proyecto ASP.NET Core 8](#paso-3-crear-el-proyecto-aspnet-core-8)
+  - [Paso 4: Generar la Interfaz Gráfica](#paso-4-generar-la-interfaz-gráfica)
+- [Creación de la Base de Datos](#creación-de-la-base-de-datos)
+
 ## Objetivos de la Unidad
 
 Desarrollar un software con ASP.NET Core 8 y Windows Forms (winforms) que se conecte a la base de datos facilitada mediante Entity Framework Core.
@@ -36,8 +50,8 @@ La aplicación debe cumplir con los siguientes requerimientos:
    - Incluir un botón que, al ser presionado, elimine el producto con el `idProducto` indicado.
 
 ## Evaluación
-- **Asignatura**: Programación .NET 
 
+- **Asignatura**: Programación .NET 
 
 ## Nota
 
@@ -49,15 +63,19 @@ La aplicación debe cumplir con los siguientes requerimientos:
 ## Desarrollo del Proyecto
 
 ### Paso 1: Sincronizar el Modelo de Datos
+
 Utiliza MySQL Workbench para sincronizar y visualizar la estructura de la tabla "Productos".
 
 ### Paso 2: Generar el Modelo de Datos
+
 Utiliza Entity Framework Core para generar el modelo de datos a partir de la base de datos.
 
 ### Paso 3: Crear el Proyecto ASP.NET Core 8
+
 Ejecuta el comando `dotnet new winforms` para crear un nuevo proyecto de Windows Forms.
 
 ### Paso 4: Generar la Interfaz Gráfica
+
 Utiliza SWD4CS para generar la interfaz gráfica del proyecto en Visual Studio Code.
 
 ## Creación de la Base de Datos
@@ -81,4 +99,3 @@ CREATE TABLE IF NOT EXISTS Productos (
     Precio INT NOT NULL,
     FechaCreacion DATETIME 
 );
-
