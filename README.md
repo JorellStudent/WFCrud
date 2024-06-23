@@ -1,5 +1,3 @@
-# WFCrud
-
 # Proyecto .NET: Gestión de Productos
 
 Este proyecto consiste en el desarrollo de una aplicación de Windows Forms (winforms) utilizando ASP.NET Core 8 y Entity Framework Core. La aplicación se conectará a una base de datos para gestionar una tabla de "Productos".
